@@ -202,3 +202,9 @@ The developed web interface transforms technical data into an experience that yo
 3. NASA Planetary Data System (PDS): https://pds.nasa.gov/
 4. NASA History Division (Mission Chronology and Documents): https://www.nasa.gov/history/
 5. Open Web Fonts: Google Fonts (Space Grotesk and JetBrains Mono) for web interface typography
+## 🚀 How to Run & Live Demo
+
+* **Live Website:** You can access the live interactive platform directly at [https://ejeal.github.io/Telemetry-Tales/](https://ejeal.github.io/Telemetry-Tales/).
+* **Local Execution:** Alternatively, to run the project locally on your computer:
+  1. Download the `index.html` file from this repository (or click **Code > Download ZIP** and extract the files).
+  2. Double-click the downloaded `index.html` file to open it directly in any modern web browser (Chrome, Edge, Firefox, Safari). No additional installation or server setup is required.
