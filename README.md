@@ -1,202 +1,204 @@
-# Evrensel Proje Dosyası
+# Universal Project File
 
-* **Proje adı:** Telemetry Tales
-* **Durum:** Proje tamamlandı.
-* **Kategori:** Terk Edilmiş Teçhizat Hikayeleri | Hikaye anlatımı, görsel içerik
-* **Takım Büyüklüğü:** 3 kişi
-* **Deadline:** 15 Kasım Pazar günü, saat 23.59
-
----
-
-## 1. Yönetici Özeti
-
-Telemetry Tales, NASA'nın 1960'lardan günümüze gerçekleştirdiği tarihi uzay görevlerinde Ay, Mars ve derin uzayda bıraktığı 13 öncü uzay aracının (Apollo 11, Apollo 12, Apollo 15, Surveyor Landers, Sojourner Rover, Spirit & Opportunity, Viking 1 & 2 Landers, Phoenix & InSight Landers, Ingenuity Helicopter, NEAR Shoemaker, Pioneer 10 & 11, Kepler Space Telescope ve Dawn Spacecraft) teknik arşiv verilerini, ortaöğretim ve genç bilim meraklıları için sürükleyici bir dijital müze deneyimine dönüştüren etkileşimli bir web platformudur.
-
-Proje; NSSDCA gibi açık erişimli ancak karmaşık teknik arşiv verilerini, "ben" diliyle kurgulanmış birinci tekil şahıs hikâyeleri, gerçek görev fotoğrafları, gezegen filtreleme sekmeleri (Ay / Mars / Tümü), iki dilli arayüz desteği (İngilizce/Türkçe) ve canlı telemetri simülasyonlarıyla birleştirerek soğuk mühendislik kayıtlarını gençlerin duygusal ve bilimsel bağ kurabileceği yaşayan anıtlara dönüştürmektedir.
+| Field | Details |
+| :--- | :--- |
+| **Project Name** | Telemetry Tales |
+| **Status** | Project completed. |
+| **Category** | Abandoned Equipment Stories \| Storytelling, visual content |
+| **Team Size** | 3 people |
+| **Deadline** | Sunday, November 15, 23:59 |
 
 ---
 
-## 2. Problem ve Çözüm
+## 1. Executive Summary
 
-### Problem Tanımı
-NASA, 1960'lardan bu yana Ay'da, Mars'ta ve derin uzayda Apollo iniş modülleri, Ay araçları, Surveyor ve Viking iniş araçları, Spirit ile Opportunity gezginleri ve Pioneer sondaları gibi çok sayıda donanım bıraktı. Bu donanımların sağladığı veriler NSSDCA gibi kaynaklarda herkese açık, ancak teknik metinler ve tarih içerikleri biçiminde duruyor. Okul çağındaki ve uzaya meraklı genç kitle ise uzay görevlerini çoğunlukla devam eden görevler üzerinden tanıyor. Sorun bilginin yokluğu değil, anlatılış biçiminin hedef kitleye ulaşmamasıdır. Donanımın mühendisliği ile ondan elde edilen keşifler arasındaki bağ bir hikâye olarak kurulmadığı için bu araçlar unutulmuş durumda. Genç kitle, bugünkü ve yarınki görevlerin dayandığı geçmişi tanımıyor.
+Telemetry Tales is an interactive web platform that transforms technical archive data from 13 pioneering spacecraft left behind on the Moon, Mars, and deep space during NASA's historic space missions from the 1960s to the present (Apollo 11, Apollo 12, Apollo 15, Surveyor Landers, Sojourner Rover, Spirit & Opportunity, Viking 1 & 2 Landers, Phoenix & InSight Landers, Ingenuity Helicopter, NEAR Shoemaker, Pioneer 10 & 11, Kepler Space Telescope, and Dawn Spacecraft) into an immersive digital museum experience for secondary school students and young science enthusiasts.
 
-### Soru Cevap
-* **Kimin sorunu?** Uzay ve havacılığa ilgi duyan, ortaöğretim düzeyindeki genç bilim meraklıları, öğrenciler ve eğitmenler.
-* **Sorun ne?** NASA'nın geçmiş insansız uzay görevlerinde kullandığı araçların ve verilerin yalnızca teknik arşiv formatında sunulması; mühendislik ile keşif arasındaki bağın gençlere hitap eden bir hikâye diliyle anlatılmaması.
-* **Neden önemli?** Bugünkü ve gelecekteki Ay/Mars görevleri bu öncü araçların mirası üzerine kuruluyor. Geçmiş görevlerin unutulması, genç neslin bilim ve uzay mühendisliğine olan ilgisini ve tarihsel bağlamını zayıflatıyor.
-
-### Problemin Adım Adım Açıklaması
-**"NASA, 1960'lardan bu yana Ay'da, Mars'ta ve derin uzayda Apollo iniş modülleri, Ay araçları, Surveyor ve Viking iniş araçları, Spirit ile Opportunity gezginleri ve Pioneer sondaları gibi çok sayıda donanım bıraktı..."**
-* Elimizde on yıllara yayılan zengin bir deney verisi, donanım verisi ve görev geçmişi bulunuyor.
-* NASA bu verilerin tamamını açık ve ücretsiz bir şekilde yayınlıyor.
-* Görev ve donanım çeşitliliği oldukça geniş ve hikâyeleştirmeye elverişli.
-
-**"Bu donanımların sağladığı veriler NSSDCA gibi kaynaklarda herkese açık, ancak teknik metinler ve tarih içerikleri biçiminde duruyor."**
-* NASA mevcut veriyi yoğun teknik metinler, telemetri kayıtları ve kuru kronolojik özetler halinde; mühendis, uzman ve akademisyenleri hedef alacak biçimde sunuyor.
-* Bir donanımın zorlu uzay koşullarında nasıl çalıştığı, ne tür sorunlarla karşılaştığı ve insanlığa ne kazandırdığı soğuk veri tablolarının arkasında gizli kalıyor.
-
-**"Okul çağındaki ve uzaya meraklı genç kitle ise uzay görevlerini çoğunlukla devam eden görevler üzerinden tanıyor. Sorun bilginin yokluğu değil, anlatılış biçiminin hedef kitleye ulaşmamasıdır."**
-* Arşive bu teknik biçimde giren veriler, bizim hedef kitlemiz olan ortaöğretim çağındaki gençler için karmaşık, sıkıcı ve erişilmesi zor bir bariyer oluşturuyor.
-* Gençler Artemis veya Perseverance gibi güncel görevleri sosyal medya ve görsel içeriklerle takip edebilirken, bu görevlerin önünü açan Pioneer, Viking veya Surveyor gibi "sessiz kahramanları" tanımıyor.
-
-**"Donanımın mühendisliği ile ondan elde edilen keşifler arasındaki bağ bir hikâye olarak kurulmadığı için bu araçlar unutulmuş durumda. Genç kitle, bugünkü ve yarınki görevlerin dayandığı geçmişi tanımıyor."**
-* Bir aracın teknik özellikleri (sensörleri, kameraları, iniş sistemleri) ile yaptığı bilimsel keşifler arasındaki neden-sonuç ilişkisi kopuk duruyor.
-* Yani sorun veri eksikliği değil, iletişim ve deneyim eksikliğidir: veri açık, ama gençlerin ilgisini çekecek, merak uyandıracak ve empati kurduracak bir kurguyla sunulmamış.
-
-### Sonuç
-* **Anlamak zor:** Teknik terimlerle dolu arşiv metinleri, ortaöğretim düzeyindeki bir öğrencinin donanımın çalışma mantığını kavramasını zorlaştırıyor.
-* **Bağ kurmak zor:** Hikâyeleştirme ve görsel destek olmadığı için, terk edilmiş bu araçlar sadece "eski metal yığınları" olarak algılanıyor; verdikleri mücadele ve bilimsel miras hissedilmiyor.
-* **Keşfetmek zor:** Gençler, güncel uzay görevlerinin hangi geçmiş tecrübeler sayesinde mümkün olduğunu görebilecekleri bütüncül ve etkileşimli bir rehber bulamıyor.
-
-### Bu Neden Önemli?
-Geleceğin bilim insanları ve uzay mühendisleri bugünün ortaöğretim öğrencileridir. Uzay keşfi bir bayrak yarışıdır; Artemis ile Ay'a dönüş veya Mars'a insanlı yolculuk hedefleri, 1960'larda Ay yüzeyine inen Surveyor'ların ve Mars toprağını ilk kez analiz eden Viking'lerin verileri olmadan mümkün olamazdı. Bu donanımların hikâyelerini gençlere doğru dille aktaramamak, hem bilimsel mirasın unutulmasına hem de gençlerin mühendislik problemlerinin nasıl çözüldüğünü görerek ilham alma fırsatını kaçırmasına yol açar.
-
-### Çözüm
-Projenin mevcut prototipinde yer aldığı üzere; Ay ve Mars yüzeyinde bırakılmış 13 ikonik araç (Apollo 11, Apollo 12, Apollo 15, Surveyor Landers, Sojourner Rover, Spirit & Opportunity, Viking 1 & 2 landers, Phoenix & InSight Landers, Ingenuity Helicopter, NEAR Shoemaker, Pioneer 10 & 11, Kepler Space Telescope, Dawn Spacecraft) kataloglanmıştır.
-
-Geliştirilen web arayüzü; Türkçe/İngilizce dil desteği, gerçek zamanlı sinyal/gecikme simülasyonları, gezegen filtreleme sekmeleri (Ay / Mars) ve her araca ait teknik istatistik/hikâye pencereleriyle teknik verileri gençlerin kolayca kavrayabileceği bir deneyime dönüştürmektedir.
+The project combines open-access yet complex technical archive data from sources such as NSSDCA with first-person stories narrated from an "I" perspective, real mission photographs, planetary filtering tabs (Moon / Mars / All), bilingual interface support (English/Turkish), and live telemetry simulations, transforming cold engineering records into living monuments with which young people can form an emotional and scientific connection.
 
 ---
 
-## 3. Vizyon & Misyon
+## 2. Problem and Solution
 
-* **Vizyon:** Uzay tarihinin unutulmuş donanımlarını genç nesillerin gözünde yeniden canlandırarak, geçmişin mühendislik başarıları ile geleceğin uzay kâşifleri arasında kalıcı bir ilham köprüsü kurmak.
-* **Misyon:** NASA'nın açık erişimli karmaşık görev verilerini; modern web teknolojileri, çift dilli arayüz ve canlı telemetri simülasyonlarıyla zenginleştirerek ortaöğretim düzeyindeki gençlerin dilinden anlayan etkileşimli hikâyelere dönüştürmek.
+### Problem Definition
+Since the 1960s, NASA has left numerous pieces of hardware on the Moon, Mars, and in deep space, including Apollo lunar modules, lunar rovers, Surveyor and Viking landers, the Spirit and Opportunity rovers, and Pioneer probes. The data provided by this hardware is publicly available in resources like NSSDCA, yet it exists in the form of technical texts and historical records. Meanwhile, school-aged youth and young space enthusiasts mostly recognize space missions through ongoing operations. The problem is not the absence of information, but rather that the way it is narrated fails to reach the target audience. Because the link between the engineering of the hardware and the discoveries obtained from it has not been constructed as a story, these vehicles have been forgotten. The younger generation does not know the history upon which today's and tomorrow's missions are built.
+
+### Question Answer
+* **Whose problem is it?** Secondary school-level young science enthusiasts, students, and educators interested in space and aviation.
+* **What is the problem?** The fact that the vehicles and data used in NASA's past unmanned space missions are presented solely in a technical archive format, and the connection between engineering and discovery is not told in a storytelling language that appeals to young people.
+* **Why is it important?** Today's and future Moon/Mars missions are built upon the legacy of these pioneering vehicles. Forgetting past missions weakens the younger generation's interest in science and space engineering as well as their historical context.
+
+### Step-by-Step Explanation of the Problem
+**"Since the 1960s, NASA has left numerous pieces of hardware on the Moon, Mars, and in deep space, including Apollo lunar modules, lunar rovers, Surveyor and Viking landers, the Spirit and Opportunity rovers, and Pioneer probes..."**
+* We have a wealth of experimental data, hardware data, and mission history spanning decades.
+* NASA publishes all of this data openly and free of charge.
+* The diversity of missions and hardware is quite broad and well-suited for storytelling.
+
+**"The data provided by this hardware is publicly available in resources like NSSDCA, yet it exists in the form of technical texts and historical records."**
+* NASA presents existing data in the form of dense technical texts, telemetry logs, and dry chronological summaries aimed at engineers, experts, and academics.
+* How a piece of hardware operated in harsh space conditions, what kinds of challenges it encountered, and what it contributed to humanity remain hidden behind cold data tables.
+
+**"Meanwhile, school-aged youth and young space enthusiasts mostly recognize space missions through ongoing operations. The problem is not the absence of information, but rather that the way it is narrated fails to reach the target audience."**
+* Data entered into the archive in this technical format creates a complex, boring, and hard-to-access barrier for our target audience of secondary school-aged youth.
+* While young people can follow current missions like Artemis or Perseverance via social media and visual content, they do not know the "unsung heroes" like Pioneer, Viking, or Surveyor that paved the way for these missions.
+
+**"Because the link between the engineering of the hardware and the discoveries obtained from it has not been constructed as a story, these vehicles have been forgotten. The younger generation does not know the history upon which today's and tomorrow's missions are built."**
+* The cause-and-effect relationship between a vehicle's technical features (its sensors, cameras, landing systems) and the scientific discoveries it made appears disconnected.
+* In other words, the problem is not a lack of data, but a lack of communication and experience: the data is open, yet it has not been presented with a narrative that captures young people's interest, sparks curiosity, and builds empathy.
+
+### Conclusion
+* **Hard to understand:** Archive texts filled with technical terminology make it difficult for a secondary-school-level student to grasp the operating logic of the hardware.
+* **Hard to connect with:** Due to the lack of storytelling and visual support, these abandoned vehicles are perceived merely as "old piles of metal"; their struggles and scientific legacy are not felt.
+* **Hard to explore:** Young people cannot find a holistic and interactive guide where they can see which past experiences made current space missions possible.
+
+### Why Does This Matter?
+Tomorrow's scientists and space engineers are today's secondary school students. Space exploration is a relay race; goals such as returning to the Moon with Artemis or human journeys to Mars would not have been possible without the data from the Surveyors that landed on the lunar surface in the 1960s and the Vikings that first analyzed Martian soil. Failing to convey the stories of this hardware to young people in the right language leads both to the forgetting of scientific legacy and to young people missing the opportunity to be inspired by seeing how engineering problems are solved.
+
+### Solution
+As included in the current prototype of the project, 13 iconic vehicles left on the surfaces of the Moon and Mars (Apollo 11, Apollo 12, Apollo 15, Surveyor Landers, Sojourner Rover, Spirit & Opportunity, Viking 1 & 2 Landers, Phoenix & InSight Landers, Ingenuity Helicopter, NEAR Shoemaker, Pioneer 10 & 11, Kepler Space Telescope, Dawn Spacecraft) have been cataloged.
+
+The developed web interface transforms technical data into an experience that young people can easily grasp through Turkish/English language support, real-time signal/delay simulations, planetary filtering tabs (Moon / Mars), and technical statistics/story modals for each vehicle.
 
 ---
 
-## 4. Hedef ve Amaçlar
+## 3. Vision & Mission
 
-1. **Genişletilmiş Veri Tabanı ve Kataloglama:** Ay (4 araç) ve Mars (9 araç) olmak üzere toplam 13 ikonik uzay aracının teknik verilerini, tarihçelerini ve keşif hikâyelerini prototip düzeyinde sisteme entegre etmek.
-2. **İnteraktif & Çift Dilli Deneyim:** Kullanıcıların İngilizce ve Türkçe dilleri arasında anlık geçiş yapabilmesini, gezegen filtrelerini (Tümü, Ay, Mars) kullanabilmesini ve araç detaylarına modal pencerelerle ulaşabilmesini sağlamak.
-3. **Canlı Telemetri Simülasyonu:** Sinyal gücü (dBm), Ay/Mars sinyal gecikmeleri ve yüzey sıcaklığı gibi parametreleri simüle eden canlı terminal akışı eklemek.
-4. **Tam Zamanında Teslim:** 15 Kasım Pazar saat 23:59'a kadar prototipi tam sürüm web platformu, tanıtım sunumu ve proje evrensel dosyası ile birlikte eksiksiz teslim etmek.
+* **Vision:** To revive the forgotten hardware of space history in the eyes of younger generations, building a lasting bridge of inspiration between the engineering achievements of the past and the space explorers of the future.
+* **Mission:** To enrich NASA's open-access, complex mission data with modern web technologies, a bilingual interface, and live telemetry simulations, transforming it into interactive stories that speak the language of secondary school-level youth.
 
 ---
 
-## 5. Takım Rol Dağılımı
+## 4. Goals and Objectives
 
-| Rol | İsim | Sorumluluk | Yetki |
+1. **Expanded Database and Cataloging:** Integrating the technical data, histories, and discovery stories of a total of 13 iconic spacecraft—comprising the Moon (4 vehicles) and Mars (9 vehicles)—into the system at the prototype level.
+2. **Interactive & Bilingual Experience:** Enabling users to switch instantaneously between English and Turkish languages, use planetary filters (All, Moon, Mars), and access vehicle details via modal windows.
+3. **Live Telemetry Simulation:** Adding a live terminal stream that simulates parameters such as signal strength (dBm), Moon/Mars signal delays, and surface temperature.
+4. **On-Time Delivery:** Delivering the prototype completely by Sunday, November 15 at 23:59 along with the full-version web platform, introductory presentation, and universal project file.
+
+---
+
+## 5. Team Role Distribution
+
+| Role | Name | Responsibility | Authority |
 | :--- | :--- | :--- | :--- |
-| Proje Kaptanı & Hikaye/Araştırma Lideri | Elif Ece ÖZKARA | NSSDCA veri araştırması, araçların hikâye metinlerinin oluşturulması, TR/EN çeviri içerikleri ve zaman yönetimi | Proje kapsamı, içerik onayı, final teslim kararları |
-| Frontend & Web Geliştirme Sorumlusu | Ece ALTUNDİŞ | HTML/CSS/JS tabanlı arayüz kodlaması, dil geliştirme mantığı, modal pencereler, canlı telemetri simülasyon döngüsü ve deploy | Teknik mimari, kod deposu (GitHub) yönetimi ve canlı ortam kararları. |
-| Görsel Tasarım & UI/UX Sorumlusu | Esmanur ASAL | Karanlık tema (glassmorphism) tasarımı, gezegen sekmeleri, mobil uyumluluk ve sunum slaytları proje dosyalarının oluşturulması ve takibi | Görsel kimlik, renk paleti, tipografi ve medya varlıklarının onayı. |
+| Project Captain & Story/Research Leader | Elif Ece ÖZKARA | NSSDCA data research, creation of vehicle story texts, TR/EN translation content, and time management | Project scope, content approval, final delivery decisions |
+| Frontend & Web Development Lead | Ece ALTUNDİŞ | HTML/CSS/JS-based interface coding, language switching logic, modal windows, live telemetry simulation loop, and deployment | Technical architecture, code repository (GitHub) management, and live environment decisions. |
+| Visual Design & UI/UX Lead | Esmanur ASAL | Dark theme (glassmorphism) design, planetary tabs, mobile responsiveness, and creation and tracking of presentation slides and project files | Visual identity, color palette, typography, and approval of media assets. |
 
 ---
 
-## 6. Yol Haritası / İlerleyiş
+## 6. Roadmap / Progress
 
-### Faz 1: Prototip Geliştirme ve 13 Araç Entegrasyonu (Tamamlandı)
-**Tanım (SMART):**
-* **Specific:** Apollo 11, Apollo 12, Apollo 15, Surveyor Landers, Sojourner Rover, Spirit & Opportunity, Viking 1 & 2 landers, Phoenix & InSight Landers, Ingenuity Helicopter, NEAR Shoemaker, Pioneer 10 & 11, Kepler Space Telescope, Dawn Spacecraft araçlarının prototip arayüze eklenmesi
-* **Measurable:** 13 aktif kart, modal detay görünümleri ve TR/EN dil desteği içeren çalışan HTML/JS prototipi
-* **Achievable:** Modern web teknolojileriyle hızlı ve efektif şekilde tamamlandı.
-* **Relevant:** Projenin ana vizyonunu somut bir sunum ile kanıtlıyor
-* **Time-bound:** Proje ara teslim tarihinden önce prototip olarak hazırlandı.
+### Phase 1: Prototype Development and 13-Vehicle Integration (Completed)
+**Definition (SMART):**
+* **Specific:** Adding Apollo 11, Apollo 12, Apollo 15, Surveyor Landers, Sojourner Rover, Spirit & Opportunity, Viking 1 & 2 Landers, Phoenix & InSight Landers, Ingenuity Helicopter, NEAR Shoemaker, Pioneer 10 & 11, Kepler Space Telescope, and Dawn Spacecraft to the prototype interface.
+* **Measurable:** A working HTML/JS prototype containing 13 active cards, modal detail views, and TR/EN language support.
+* **Achievable:** Completed quickly and effectively using modern web technologies.
+* **Relevant:** Proves the core vision of the project with a tangible presentation.
+* **Time-bound:** Prepared as a prototype prior to the project interim submission deadline.
 
-**Kabul Kriterleri:**
-* [x] 13 uzay aracının verileri kartlara işlendi
-* [x] Türkçe ve İngilizce dil desteği aktif olarak çalışıyor
-* [x] Modal detay pencereleri ve telemetri simülasyonu çalışır durumda
+**Acceptance Criteria:**
+* [x] Data for 13 spacecraft processed into cards
+* [x] Turkish and English language support actively working
+* [x] Modal detail windows and telemetry simulation operational
 
-* **Bağımlılıklar:** Temel problem tanımı ve veri kaynaklarının tespiti.
-* **Sorumluluklar:** Lider: [Elif Ece] & [Esmanur]
-* **Başarı Metrikleri:** Prototip arayüzün hatasız açılması ve tüm araç kartlarının filtrelenebilmesi.
+* **Dependencies:** Identification of the core problem definition and data sources.
+* **Responsibilities:** Leaders: [Elif Ece] & [Esmanur]
+* **Success Metrics:** Error-free loading of the prototype interface and ability to filter all vehicle cards.
 
-### Faz 2: Gelişmiş Özellikler ve Canlı Yayın
-**Tanım (SMART):**
-* **Specific:** Web sitesinin GitHub üzerinde canlıya alınması, ek araçların eklenmesi ve UI cilalanması.
-* **Measurable:** Canlı erişilebilir URL ve optimize edilmiş mobil görünüm.
-* **Achievable:** Mevcut çalışan prototip üzerinden kolayca yönetilebilir.
-* **Relevant:** Final jüri sunumu ve demo hedefini doğrudan destekler
-* **Time-bound:** 14 Kasım - 15 Kasım Pazar 23:59
+### Phase 2: Advanced Features and Live Deployment
+**Definition (SMART):**
+* **Specific:** Deploying the website live on GitHub, adding additional vehicles, and UI polishing.
+* **Measurable:** Live accessible URL and optimized mobile view.
+* **Achievable:** Easily manageable over the existing working prototype.
+* **Relevant:** Directly supports the final jury presentation and demo objective.
+* **Time-bound:** November 14 - Sunday, November 15, 23:59
 
-**Kabul Kriterleri:**
-* [x] Web sitesi bulut sunucuda yayına alındı.
-* [x] Mobil cihazlarda test edildi ve duyarlı (responsive) olduğu doğrulandı.
-* [x] Takım sayfası ve GitHub bağlantıları eklendi
+**Acceptance Criteria:**
+* [x] Website deployed live on a cloud server.
+* [x] Tested on mobile devices and verified to be responsive.
+* [x] Team page and GitHub links added.
 
-* **Bağımlılıklar:** Faz 1 prototipinin kararlılığı.
-* **Sorumluluklar:** Lider: [Ece]
-* **Başarı Metrikleri:** Canlı linkin sorunsuz çalışması.
+* **Dependencies:** Stability of the Phase 1 prototype.
+* **Responsibilities:** Leader: [Ece]
+* **Success Metrics:** Smooth operation of the live link.
 
-### Faz 3: Sunum ve Final Teslim
-**Tanım (SMART):**
-* **Specific:** Proje sunum slaytlarının hazırlanması ve jüri teslimi
-* **Measurable:** 1 adet sunum dosyası ve eksiksiz proje dokümantasyonu
-* **Achievable:** Tüm kod ve içerik temeli hazır olduğu için planlı ilerlenecek.
-* **Relevant:** Yarışma kurallarına tam uyum sağlar.
-* **Time-bound:** 15 Kasım Pazar, Saat 23:59
+### Phase 3: Presentation and Final Delivery
+**Definition (SMART):**
+* **Specific:** Preparation of project presentation slides and jury submission.
+* **Measurable:** 1 presentation file and complete project documentation.
+* **Achievable:** Will proceed as planned since all code and content foundations are ready.
+* **Relevant:** Ensures full compliance with competition rules.
+* **Time-bound:** Sunday, November 15, 23:59
 
-**Kabul Kriterleri:**
-* [x] Sunum slaytları tamamlandı.
-* [x] Proje Kimlik Kartı ve Evrensel Proje Dosyası güncellendi
+**Acceptance Criteria:**
+* [x] Presentation slides completed.
+* [x] Project Identity Card and Universal Project File updated.
 
-* **Bağımlılıklar:** Faz 2'nin tamamlanması.
-* **Sorumluluklar:** Lider: [Esmanur] | Destek: [Elif]
-* **Başarı Metrikleri:** Zamanında ve eksiksiz teslim
-
----
-
-## 7. Kısıtlar
-
-* **Zaman Kısıtı:** Proje teslimi 15 Kasım Pazar saat 23:59 ile sınırlıdır; bu doğrultuda prototip üzerinde hızlı iterasyonlar yapılarak son sürüm kararlı hale getirilmektedir.
-* **İnsan Kaynağı Kısıtı:** Ekip 3 kişiden oluşmaktadır; içerik, tasarım ve frontend geliştirme işleri paralel yürütülmektedir.
-* **Bütçe Kısıtı:** Sıfır bütçe ile açık kaynaklı NASA verileri ve ücretsiz hosting araçları kullanılmaktadır.
+* **Dependencies:** Completion of Phase 2.
+* **Responsibilities:** Leader: [Esmanur] | Support: [Elif]
+* **Success Metrics:** On-time and complete delivery.
 
 ---
 
-## 8. Risk Kayıt Defteri
+## 7. Constraints
 
-*Not: Risk Skoru = Olasılık × Etki | Öncelik: 1–4 Düşük, 5–9 Orta, 10–15 Yüksek, 16–25 Kritik*
+* **Time Constraint:** Project delivery is limited to Sunday, November 15 at 23:59; accordingly, rapid iterations are performed on the prototype to stabilize the final version.
+* **Human Resource Constraint:** The team consists of 3 people; content, design, and frontend development tasks are carried out in parallel.
+* **Budget Constraint:** Open-source NASA data and free hosting tools are used with zero budget.
 
-| ID | Risk | Kategori | Olasılık | Etki | Skor | Öncelik | Azaltma Stratejisi |
+---
+
+## 8. Risk Register
+
+*Note: Risk Score = Probability × Impact | Priority: 1-4 Low, 5-9 Medium, 10-15 High, 16-25 Critical*
+
+| ID | Risk | Category | Probability | Impact | Score | Priority | Mitigation Strategy |
 | :--- | :--- | :--- | :---: | :---: | :---: | :---: | :--- |
-| R1 | 13 aracın haricinde yeni araç ekleme taleplerinin zorlaması | Kapsam/Zaman | 3 | 3 | 9 | Orta | Mevcut 13 aracı kararlı bir MVP olarak tutmak, ek talepleri "Gelecek Özellikler" olarak konumlandırma |
-| R2 | Çift dilli (TR/EN) metinlerde kayma veya çeviri hataları oluşması | Kalite | 2 | 3 | 6 | Orta | Dil yapılarını JSON benzeri nesne haritayla (i18n sözlüğü) merkezi ve düzenli tutmak |
-| R3 | Canlı yayına alma (deploy) sırasında erişim sorunları yaşanması | Teknik | 2 | 5 | 10 | Yüksek | Prototipi erkenden test edip GitHub üzerinde yedekli tutmak |
+| R1 | Pressure from requests to add new vehicles beyond the 13 vehicles | Scope/Time | 3 | 3 | 9 | Medium | Keeping the existing 13 vehicles as a stable MVP and positioning additional requests as "Future Features" |
+| R2 | Occurrence of text shifts or translation errors in bilingual (TR/EN) texts | Quality | 2 | 3 | 6 | Medium | Keeping language structures centralized and organized via a JSON-like object map (i18n dictionary) |
+| R3 | Experiencing access issues during live deployment | Technical | 2 | 5 | 10 | High | Testing the prototype early and keeping backups on GitHub |
 
 ---
 
-## 9. Karar Kayıtları
+## 9. Decision Logs
 
-* **Karar Başlığı:** 13 İkonik Araç ve Çift Dilli (TR/EN) Prototip Mimarisi
-* **Durum:** Kabul edildi ve prototip kodlandı | **Tarih:** 2026-11-14 | **Karar Vericiler:** Proje Kaptanı & Takım Üyeleri
-* **Bağlam:** Projenin ilk aşamasında planlanan 7 araç sayısı, saha araştırmaları ve demo gereksinimleri doğrultusunda artırılarak Ay ve Mars'ı kapsayan 13 araca çıkarılmıştır. Ayrıca küresel erişilebilirlik için arayüze İngilizce ve Türkçe dil desteği eklenmiştir.
-* **Karar:** Prototip kod tabanında 3 Ay aracı (Apollo 11, Apollo 12, Apollo 15) ve 4 Mars aracı (Viking 1, Viking 2, Sojourner, Opportunity) ana kapsam olarak benimsenmiştir.
-* **Sonuçlar:** Proje kapsamı zenginleşmiş, jüriye sunulabilecek somut ve çalışır bir web sitesi elde edilmiştir.
-* **Takım Onayı:** Takım Kaptanı, Takım Üyeleri
-
----
-
-## 10. Toplantı Kaydı
-
-### Toplantı 1
-* **Başlık:** Prototip Değerlendirme ve Kapsam Güncelleme Toplantısı
-* **Tarih:** 2026-11-14 | **Katılımcılar:** [Elif Ece], [Esmanur], [Ece]
-* **Gündem:** Mevcut kod dizisinin incelenmesi, araç sayısının 13'e çıkarılması, TR/EN dil desteğinin ve canlı telemetri simülasyonunun gözden geçirilmesi
-* **Alınan Kararlar:**
-  1. Evrensel Proje Dosyası'ndaki araç sayısı 13 olarak güncellendi.
-  2. Prototip kodunun kararlılığı onaylandı.
-  3. Canlı yayın ve sunum hazırlıkları için görev dağılımı netleştirildi.
-* **Sonraki Toplantı:** 15 Kasım 2026 Final Sunum Provası
-
-### Toplantı 2
-* **Başlık:** Proje Geliştirme, Final Sunum Dosyası Hazırlama ve Projeyi Sisteme Yükleme Toplantısı
-* **Tarih:** 2026-11-15 | **Katılımcılar:** [Elif Ece], [Esmanur], [Ece]
-* **Gündem:** Web sitesi son eklemeler ve bulut sunucuya (GitHub) aktarılması, proje evrensel dosyası tamamlanması
-* **Alınan Kararlar:**
-  1. Proje evrensel dosyası ve kimlik kartı sisteme yüklendi.
-  2. Web sitesi tabanlı proje linki sisteme yüklendi.
-  3. Proje Gönderme tamamlandı.
+* **Decision Title:** 13 Iconic Vehicles and Bilingual (TR/EN) Prototype Architecture
+* **Status:** Accepted and prototype coded | **Date:** 2026-11-14 | **Decision Makers:** Project Captain & Team Members
+* **Context:** The number of vehicles planned as 7 in the initial phase of the project was increased to 13 covering the Moon and Mars in line with field research and demo requirements. Additionally, English and Turkish language support was added to the interface for global accessibility.
+* **Decision:** In the prototype codebase, 3 lunar vehicles (Apollo 11, Apollo 12, Apollo 15) and 4 Martian vehicles (Viking 1, Viking 2, Sojourner, Opportunity) were adopted as the core scope.
+* **Outcomes:** The project scope was enriched, and a concrete, working website ready to be presented to the jury was achieved.
+* **Team Approval:** Team Captain, Team Members
 
 ---
 
-## Kaynakça
+## 10. Meeting Log
+
+### Meeting 1
+* **Title:** Prototype Evaluation and Scope Update Meeting
+* **Date:** 2026-11-14 | **Participants:** [Elif Ece], [Esmanur], [Ece]
+* **Agenda:** Reviewing the current codebase, increasing the vehicle count to 13, and reviewing TR/EN language support and live telemetry simulation
+* **Decisions Made:**
+  1. The number of vehicles in the Universal Project File was updated to 13.
+  2. The stability of the prototype code was approved.
+  3. Task distribution for live deployment and presentation preparations was finalized.
+* **Next Meeting:** November 15, 2026 Final Presentation Rehearsal
+
+### Meeting 2
+* **Title:** Project Development, Final Presentation File Preparation, and System Upload Meeting
+* **Date:** 2026-11-15 | **Participants:** [Elif Ece], [Esmanur], [Ece]
+* **Agenda:** Final additions to the website and deployment to the cloud server (GitHub), completion of the universal project file
+* **Decisions Made:**
+  1. The universal project file and identity card were uploaded to the system.
+  2. The website-based project link was uploaded to the system.
+  3. Project submission was completed.
+
+---
+
+## References
 
 1. NASA Space Science Data Coordinated Archive (NSSDCA): https://nssdc.gsfc.nasa.gov/
-2. NASA Solar System Exploration (Tarihi ve Aktif Görevler Arşivi): https://solarsystem.nasa.gov/missions/
+2. NASA Solar System Exploration (Historic and Active Missions Archive): https://solarsystem.nasa.gov/missions/
 3. NASA Planetary Data System (PDS): https://pds.nasa.gov/
-4. NASA History Division (Görev Kronolojisi ve Belgeler): https://www.nasa.gov/history/
-5. Açık Web Yazı Tipleri (Open Web Fonts): Web arayüzü tipografisi için Google Fonts (Space Grotesk ve JetBrains Mono)
+4. NASA History Division (Mission Chronology and Documents): https://www.nasa.gov/history/
+5. Open Web Fonts: Google Fonts (Space Grotesk and JetBrains Mono) for web interface typography
